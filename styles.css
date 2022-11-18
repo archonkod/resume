@@ -135,8 +135,10 @@ a:visited {
     display: block;
     font-size: 14px;
     color: rgb(15, 14, 14);
+}
 
-
+.form textarea::placeholder, input::placeholder {
+    font-size: 10px;
 }
 
 .form-group input,
@@ -155,8 +157,13 @@ a:visited {
 }
 
 @media (max-width: 510px) { /* текст под фото позиционировать, изменить таблицу подстроив под новый размер. */
+    .info  {
+        display: block;
+
+    }
+   
     .table {
-        position: relative;
+        font-size: 8px;
     
     }
 
