@@ -17,7 +17,6 @@ a {
 a:hover {
     font-size: 3rem;
     text-decoration: underline;
-
 }
 
 a:visited { 
@@ -27,7 +26,6 @@ a:visited {
 .info {
     margin-bottom: 20px;
     display: flex;
-
 }
 
 .info-text h3 {
@@ -35,18 +33,13 @@ a:visited {
     font-weight: bold;
     color: rgb(156, 157, 160);
     margin-left: 20px;
-    
-    
 }
-
-
 
 .card {
     margin-bottom: 10px;
     border: 2px solid rgb(58, 55, 55);
     border-bottom-right-radius: 10px;
     padding: 5px 8px;
-    
 }
 
 .contacts{
@@ -60,7 +53,6 @@ a:visited {
 .list li {
     color:#5e5b5b;
     margin-bottom: 5px;
-
 }
 
 .job{
@@ -72,15 +64,14 @@ a:visited {
     margin: auto;
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
     padding: 4px;
-    
 }
+
 .photo {
     margin-left: 15px;
     border: 2px solid rgb(58, 55, 55);
     box-shadow: -4px 4px 14px rgba(0, 0, 0, 0.55); 
     width: 200px;
     height: 192px;
-    
 }
 
 .btn {
@@ -99,8 +90,6 @@ a:visited {
     border: 2px solid rgb(58, 55, 55);
 }
 
-
-
 .table td {
     text-align: center;
     padding-bottom: 10px;
@@ -118,13 +107,11 @@ a:visited {
 .form-row {
     margin-bottom: 10px;
     display: flex;
-
 }
 
 .form-row .form-group {
     margin-right: 20px;
     width: 50%;
-    
 }
 
 .form-row .form-group:last-child {
@@ -152,20 +139,14 @@ a:visited {
     padding: 15px 0 10px;
     outline: none;
     font-family: inherit;
-
-
 }
 
-@media (max-width: 510px) { /* текст под фото позиционировать, изменить таблицу подстроив под новый размер. */
+@media (max-width: 510px) { 
     .info  {
         display: block;
-
     }
    
     .table {
         font-size: 8px;
-    
     }
-
 }
-/*  */
